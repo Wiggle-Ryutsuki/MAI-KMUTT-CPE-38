@@ -1,0 +1,104 @@
+grade,term,subject_code,subject_name,credits,grade
+10,1,"THA31101","Thai Language 1",1.0,4
+10,1,"MTH30201","Additional Mathematics 1",1.5,4
+10,1,"MTH31101","Mathematics 1",1.0,4
+10,1,"SCI30252","Science Project",1.0,4
+10,1,"SCI30261","Computer Applications 1",0.5,4
+10,1,"SCI31101","Basic Science 1",1.5,4
+10,1,"SCI30201","Physics 1",2.0,3.5
+10,1,"SCI30221","Chemistry 1",1.5,4
+10,1,"SCI30241","Biology 1",1.5,4
+10,1,"SOC31101","Social Studies 1",1.0,4
+10,1,"SOC31103","History 1",0.5,4
+10,1,"PE30205","Basketball",0.5,4
+10,1,"PE31101","Health and Physical Education 1",0.5,4
+10,1,"ART31101","Visual Arts 1",0.5,4
+10,1,"OCC31102","Occupation 2",0.5,4
+10,1,"ENG31101","English Language 1",1.0,4
+10,1,"ENG30201","English Reading and Writing 1",1.0,4
+10,1,"I30201","Research and Knowledge",1.0,4
+10,2,"THA31102","Thai Language 2",1.0,4
+10,2,"MTH30202","Additional Mathematics 2",1.5,4
+10,2,"MTH30208","Mathematics Project",1.0,4
+10,2,"MTH31102","Mathematics 2",1.0,4
+10,2,"SCI30242","Biology 1",1.5,3.5
+10,2,"SCI31102","Basic Science 2",1.5,4
+10,2,"SCI30222","Chemistry 2",1.5,3.5
+10,2,"SCI30202","Physics 2",2.0,3
+10,2,"SCI30262","Computer Applications 2",0.5,4
+10,2,"SOC31102","Social Studies 2",1.0,4
+10,2,"SOC31104","History 2",0.5,4
+10,2,"PE30204","Badminton",0.5,4
+10,2,"PE31102","Health and Physical Education 2",0.5,4
+10,2,"ART31104","Music and Dance 2",0.5,4
+10,2,"OCC31101","Occupation 1",0.5,4
+10,2,"ENG31102","English Language 2",1.0,4
+10,2,"ENG30202","English Reading and Writing 1",1.0,4
+10,2,"I30202","Communication and Presentation",1.0,4
+11,1,"THA32101","Thai Language 3",1.0,3.5
+11,1,"MTH30203","Additional Mathematics 3",1.5,4
+11,1,"MTH30212","Computer Mathematics",1.0,4
+11,1,"MTH32101","Mathematics 3",1.0,4
+11,1,"SCI32101","Basic Science 3",1.5,4
+11,1,"SCI30203","Physics 3",2.0,4
+11,1,"SCI30223","Chemistry 3",1.5,4
+11,1,"SCI30243","Biology 3",1.5,4
+11,1,"SCI30261","Computer Applications 3",1.5,4
+11,1,"SCI32103","Technology and Computing",0.5,4
+11,1,"SOC32101","Social Studies 3",1.0,4
+11,1,"SOC32103","History 3",0.5,4
+11,1,"PE32106","Rhythmic Activities",0.5,4
+11,1,"PE32101","Health and Physical Education 3",0.5,4
+11,1,"ART32103","Music and Dance 3",0.5,4
+11,1,"ENG32101","English Language 3",1.0,4
+11,1,"ENG30203","English Reading and Writing 3",1.0,4
+11,2,"THA32102","Thai Language 4",1.0,3.5
+11,2,"MTH30204","Additional Mathematics 4",1.5,4
+11,2,"MTH30214","Theory of Equations",1.0,4
+11,2,"MTH32102","Mathematics 4",1.0,4
+11,2,"SCI30224","Chemistry 4",1.5,4
+11,2,"SCI30244","Biology 3",1.5,4
+11,2,"SCI32102","Basic Science 4",1.5,4
+11,2,"SCI32104","Technology and Computing 2",0.5,4
+11,2,"SCI30204","Physics 4",2.0,4
+11,2,"SOC32102","Social Studies 4",1.0,4
+11,2,"SOC32104","History 4",0.5,4
+11,2,"PE30212","Aerobics",0.5,4
+11,2,"PE32102","Health and Physical Education 4",0.5,4
+11,2,"ART32101","Visual Arts 3",0.5,4
+11,2,"OCC30216","Basic Electricity and Electronics",1.0,4
+11,2,"ENG32102","English Language 4",1.0,4
+11,2,"ENG30204","English Reading and Writing 3",1.0,4
+12,1,"THA33101","Thai Language 5",1.0,4
+12,1,"MTH30205","Additional Mathematics 5",1.5,4
+12,1,"MTH33101","Mathematics 5",1.0,4
+12,1,"SCI30265","Computer Applications 5",1.0,4
+12,1,"SCI33101","Technology and Computing 3",0.5,4
+12,1,"SCI30205","Physics 5",2.0,4
+12,1,"SCI30225","Chemistry 5",1.5,4
+12,1,"SCI30245","Biology 5",1.5,4
+12,1,"SCI30253","Creativity and Innovation",1.0,4
+12,1,"SOC33101","Social Studies 5",1.0,4
+12,1,"SOC33217","Finance and Investment",0.5,4
+12,1,"PE30210","Handball",0.5,4
+12,1,"PE33101","Health and Physical Education 5",0.5,4
+12,1,"ART33103","Music and Dance 5",0.5,4
+12,1,"ENG33101","English Language 5",1.0,4
+12,1,"ENG30205","English Reading and Writing 5",1.0,4
+12,2,"THA32102","Thai Language 6",1.0,4
+12,2,"MTH30206","Additional Mathematics 6",1.5,4
+12,2,"MTH30209","Basic Calculus",1.0,4
+12,2,"MTH33102","Mathematics 6",1.0,4
+12,2,"SCI30102","Technology and Computing 4",0.5,4
+12,2,"SCI30206","Physics 6",2.0,4
+12,2,"SCI30226","Chemistry 6",1.5,4
+12,2,"SCI30246","Biology 6",1.5,4
+12,2,"SOC33102","Social Studies 6",1.0,4
+12,2,"SOC33218","Business Administration",0.5,4
+12,2,"PE30211","Recreation",0.5,4
+12,2,"PE33102","Health and Physical Education 6",0.5,4
+12,2,"ART33104","Music and Dance 6",0.5,4
+12,2,"OCC30209","Handmade Work",1.0,4
+12,2,"ENG33102","English Language 6",1.0,4
+12,2,"ENG30206","English Reading and Writing 6",1.0,4
+
