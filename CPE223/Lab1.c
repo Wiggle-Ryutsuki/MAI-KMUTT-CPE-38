@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 void signAndMagnitude(long long number, int bits, long long max, int isNegative);
-void onesCompliment(long long number, int bits, long long max, int isNegative);
-void twosCompliment(long long number, int bits, long long min, long long max);
+void onesComplement(long long number, int bits, long long max, int isNegative);
+void twosComplement(long long number, int bits, long long min, long long max);
 
 int main (void){
     int bits;
@@ -46,8 +46,8 @@ int main (void){
 
     // Print Results
     signAndMagnitude(number, bits, max, isNegative);
-    onesCompliment(number, bits, max, isNegative);
-    //twosCompliment(number, bits, min, max);
+    onesComplement(number, bits, max, isNegative);
+    twosComplement(number, bits, min, max);
 }
 
 
@@ -86,7 +86,7 @@ void signAndMagnitude(long long number, int bits, long long max, int isNegative)
 }
 
 
-void onesCompliment(long long number, int bits, long long max, int isNegative){
+void onesComplement(long long number, int bits, long long max, int isNegative){
     unsigned long long result;
 
     // Check if it can be represented
@@ -114,7 +114,7 @@ void onesCompliment(long long number, int bits, long long max, int isNegative){
 }
 
 
-void twosCompliment(long long number, int bits, long long min, long long max){
+void twosComplement(long long number, int bits, long long min, long long max){
     unsigned int result; // Can change this
 
     if (number < min || number > max){
