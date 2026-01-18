@@ -52,7 +52,7 @@ int main (void){
 
 
 void signAndMagnitude(long long number, int bits, long long max, int isNegative){
-    int binary[bits-1]; //array to store the results//
+    int binary[bits]; //array to store the results//
     long long numCopy = number;
 
     //initialize array to store binary number//
