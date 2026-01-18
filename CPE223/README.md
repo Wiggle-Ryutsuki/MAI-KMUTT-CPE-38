@@ -1,2 +1,2 @@
-# CPE223 Computer Architectures
-CPE223 files
+# CPE223 COMPUTER ARCHITECTURES
+Labs and homework for this course
