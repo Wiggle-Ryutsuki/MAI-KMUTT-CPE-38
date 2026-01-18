@@ -1,2 +1,2 @@
-# CPE112: Computer Programming with Data Structures
-CPE112 files
+# CPE112 - COMPUTER PROGRAMMING WITH DATA STRUCTURES
+Labs and homework for this course
