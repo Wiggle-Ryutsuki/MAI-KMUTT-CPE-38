@@ -1,2 +1,2 @@
-# CPE100-Computer-Programming
-CPE100 files
+# CPE100 COMPUTER PROGRAMMING
+Labs and homework for this course
