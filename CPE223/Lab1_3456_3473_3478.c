@@ -6,7 +6,7 @@
 
 void signAndMagnitude(long long number, int bits, long long max, int isNegative);
 void onesComplement(long long number, int bits, long long max, int isNegative);
-void twosComplement(long long number, int bits, long long min, long long max);
+void twosComplement(long long number, int bits, long long min, long long max, int isNegative);
 
 int main (void){
     int bits;
@@ -47,7 +47,7 @@ int main (void){
     // Print Results
     signAndMagnitude(number, bits, max, isNegative);
     onesComplement(number, bits, max, isNegative);
-    twosComplement(number, bits, min, max);
+    twosComplement(number, bits, min, max, isNegative);
 }
 
 
@@ -74,7 +74,7 @@ void signAndMagnitude(long long number, int bits, long long max, int isNegative)
 
     if (number != 0) {
         // If number is not 0, that means there is not enough bits.//
-        printf("The sign-magnitude doesn't represent %lld.\n", numCopy);
+        printf("Sign-Magnitude doesn't represent %lld.\n", numCopy);
 
     } else {
         //prints the results//
@@ -91,7 +91,7 @@ void onesComplement(long long number, int bits, long long max, int isNegative){
 
     // Check if it can be represented
     if (number < -max || number > max){
-        printf("1's complement doesn't represent %lld\n", number);
+        printf("1's Complement doesn't represent %lld.\n", number);
         return;
     }
 
@@ -107,23 +107,29 @@ void onesComplement(long long number, int bits, long long max, int isNegative){
 
     printf("1's Complement: ");
     for (int i = bits-1; i >= 0; i--) {
-        printf("%d", (int)((result >> i) & 1));
-
-    }
-    printf("\n");
+        printf("%d", ((result >> i) & 1));
+    } printf("\n");
 }
 
 
-void twosComplement(long long number, int bits, long long min, long long max){
-    unsigned int result; // Can change this
+void twosComplement(long long number, int bits, long long min, long long max, int isNegative) {
+    unsigned long long result;
 
-    if (number < min || number > max){
-        printf("2's compliment cannot represent %lld", number);
+    if (number < min || number > max) {
+        printf("2's Complement doesn't represent %lld.\n", number);
         return;
     }
 
-    /* Code here
-        ... */
+    if (isNegative && number == 0){
+        printf("2's Complement doesn't represent -0.\n");
+        return;
+    }
 
-    //printf(result); // Can change this
+    result = (unsigned long long)number & ((1ULL << bits) - 1);
+
+    // Print result in binary
+    printf("2's Complement: ");
+    for (int i = bits - 1; i >= 0; i--) {
+        printf("%d", ((result >> i) & 1));
+    } printf("\n");
 }
