@@ -7,5 +7,17 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hello, world!");
+    int n = 44;
+
+    long long current;
+    long long prev1 = 0;
+    long long prev2 = 1;
+
+    for (int i = 2; i <= n; i++){
+        current = prev1 + prev2;
+        prev2 = prev 1;
+        prev1 = current;
+    }
+
+    printf("44th Fibonacci: %lld\n", current);
 }
