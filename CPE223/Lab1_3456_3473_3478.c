@@ -48,6 +48,7 @@ int main (void){
     signAndMagnitude(number, bits, max, isNegative);
     onesComplement(number, bits, max, isNegative);
     twosComplement(number, bits, min, max, isNegative);
+    printf("\n");
 }
 
 
