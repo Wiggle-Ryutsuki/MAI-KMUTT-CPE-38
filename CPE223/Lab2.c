@@ -2,8 +2,6 @@
 // Maimoona Aziz            67070503473
 // Iris French              67070503478
 
-
-// calculates the 44th Fibonacci number without using any special library. 
 #include <stdio.h>
 
 int main(void){
@@ -13,9 +11,9 @@ int main(void){
     long long prev1 = 0;
     long long prev2 = 1;
 
-    for (int i = 2; i <= n; i++){
+    for (int i = 0; i < n; i++){
         current = prev1 + prev2;
-        prev2 = prev 1;
+        prev2 = prev1;
         prev1 = current;
     }
 
