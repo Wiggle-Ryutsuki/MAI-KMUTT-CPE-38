@@ -7,8 +7,9 @@ int partition (int arr[], int low, int high);
 void quickSort (int arr[], int low, int high, int n);
 
 int main(void){
-    int n; scanf("%i", &n);
+    int n; printf("Enter size of array: ");scanf("%i", &n);
     int arr[n];
+    printf("Enter numbers: \n");
     for (int i = 0; i < n; i++){
         printf("Index[%i]: ", i);
         scanf("%i", &arr[i]);
@@ -51,16 +52,24 @@ int partition (int arr[], int low, int high){
         }
     
         if (start < end){
-            swap(&arr[start], &arr[end]);
+            //swap(&arr[start], &arr[end]);
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
         }
     }
 
-    swap(&arr[low], &arr[end]);
+    //swap(&arr[low], &arr[end]);
+    int temp = arr[low];
+    arr[low] = arr[end];
+    arr[end] = temp;
+
     return end;
 }
 
-void swap (int* a, int* b){
+/*void swap (int* a, int* b){
     int temp = *a;
     *a = *b;
     *b = temp;
 }
+*/
